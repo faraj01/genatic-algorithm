@@ -20,7 +20,7 @@ A = 4/3;                 % Heating parameters        [°C/h]
 The temperature function grows linearly from -1 to 5 as follows: 
 x=0:0.01:2
 for i=1:length(x)
-v(i)=h+x(i);
+v(i)=h+x(i); 
 
       
 cost function (y) is a quadratic cost function where y= PiD+PiC*(V(t)/A)+Pip int[P(V(t)),t,0,Vmax/A] ; where:
